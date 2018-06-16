@@ -25,4 +25,5 @@ const main = async function(ctx) {
 
 app.use(koaBody({ multipart: true }));
 app.use(main);
+console.log(1);
 app.listen(3000);
